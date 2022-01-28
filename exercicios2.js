@@ -119,6 +119,43 @@ const datas = (data) => {
 
 datas(data)
 
+// abaixo a maneira antiga de fazer esse exercico, bem menos eficiente
+
+/*if(data[0].nationality == "brasileiro" && data[0].age >= 18){
+    console.log("Antonio está aprovado")
+}
+else (
+    console.log("Antonio não esta aprovad0")
+)
+
+if(data[1].nationality == "brasileiro" && data[1].age >= 18){
+    console.log("Diogo está aprovado")
+}
+else (
+    console.log("Diogo não esta aprovado")
+)
+
+
+if(data[2].nationality == "brasileiro" && data[2].age >= 18){
+    console.log("Ingrid está aprovada")
+}
+else (
+    console.log("Ingrid não esta aprovada")
+)
+if(data[3].nationality == "brasileiro" && data[3].age >= 18){
+    console.log("Rodrigoestá aprovado")
+}
+else (
+    console.log("Rodrigo não esta aprovado")
+)
+
+if(data[4].nationality == "brasileiro" && data[4].age >= 18){
+    console.log("Guilherme está aprovado")
+}
+else (
+    console.log("Guilherme não esta aprovado")
+)
+*/
 
 
 
