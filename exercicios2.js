@@ -113,40 +113,23 @@ const data = [ //[ ] Crie 5 objetos nesse formato. Ao rodar o programa, deve imp
     nationality: "italian ",
 }
 ]
-if(data[0].nationality == "brasileiro" && data[0].age >= 18){
-    console.log("Antonio está aprovado")
-}
-else (
-    console.log("Antonio não esta aprovad0")
-)
 
-if(data[1].nationality == "brasileiro" && data[1].age >= 18){
-    console.log("Diogo está aprovado")
-}
-else (
-    console.log("Diogo não esta aprovado")
-)
+const datas = (data) => {
+    for (let i = 0; i < data.length; i++) {
+        let nationality = data[i].nationality
+        let age = data[i].age
 
+        if (nationality == "brasileiro" && age >= 18) {
+            console.log(`${data[i].name} Aproved`)
+        }
+        else {
+            console.log(`${data[i].name} Reproved`)
+        
+        }
+    }
+}
 
-if(data[2].nationality == "brasileiro" && data[2].age >= 18){
-    console.log("Ingrid está aprovada")
-}
-else (
-    console.log("Ingrid não esta aprovada")
-)
-if(data[3].nationality == "brasileiro" && data[3].age >= 18){
-    console.log("Rodrigoestá aprovado")
-}
-else (
-    console.log("Rodrigo não esta aprovado")
-)
-
-if(data[4].nationality == "brasileiro" && data[4].age >= 18){
-    console.log("Guilherme está aprovado")
-}
-else (
-    console.log("Guilherme não esta aprovado")
-)
+datas(data)
 
 
 
